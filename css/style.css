@@ -34,7 +34,7 @@ header,
   transition: .7s !important;
 }
 .card {
-  margin: 5%;
+  margin: 2% 5% !important;
   min-height: 100%;
 }
 .team-section .avatar img {
