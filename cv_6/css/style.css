@@ -11,7 +11,7 @@ header nav {
   background: linear-gradient(to top, #fff, #ccc);
 }
 header nav .show {
-  max-height: 40vh;
+  max-height: 50vh;
 }
 header nav .container a.navbar-brand {
   padding: 1px;
