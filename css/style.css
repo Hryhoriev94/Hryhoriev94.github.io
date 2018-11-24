@@ -1,7 +1,7 @@
 html,
 body,
 header,
-#intro {
+.view {
   height: 100%;
 }
 .navbar {
@@ -42,14 +42,6 @@ header,
   background-color: #1c2331;
 }
 @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  #intro {
-    height: 130vh;
-  }
-}
-@media (max-width: 375px) {
   html,
   body,
   header,
