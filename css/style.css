@@ -33,6 +33,10 @@ header,
   font-weight: bold;
   transition: .7s !important;
 }
+.card {
+  margin: 5%;
+  min-height: 100%;
+}
 .team-section .avatar img {
   height: 50vh;
   width: auto;
