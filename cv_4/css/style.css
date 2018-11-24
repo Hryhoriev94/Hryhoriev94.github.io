@@ -67,4 +67,7 @@ hr.mobile-hr {
   hr.mobile-hr {
     display: inline;
   }
+  .first-textbox h1 {
+    font-size: 2em;
+  }
 }
