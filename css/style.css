@@ -58,24 +58,13 @@ hr.mobile-hr {
   display: none;
 }
 @media (max-width: 768px) {
-  html,
-  body,
-  #intro {
-    height: 150vh;
-  }
-  html .card-desktop,
-  body .card-desktop,
-  #intro .card-desktop {
+  .card-desktop {
     display: none;
   }
-  html .card-mobile,
-  body .card-mobile,
-  #intro .card-mobile {
+  .card-mobile {
     display: block;
   }
-  html hr.mobile-hr,
-  body hr.mobile-hr,
-  #intro hr.mobile-hr {
+  hr.mobile-hr {
     display: inline;
   }
 }
