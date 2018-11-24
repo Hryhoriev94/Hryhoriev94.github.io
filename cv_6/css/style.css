@@ -3,6 +3,9 @@ body,
 .view {
   height: 100%;
 }
+html {
+  overflow-x: hidden;
+}
 header {
   height: auto;
 }
