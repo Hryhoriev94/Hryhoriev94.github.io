@@ -1,0 +1,115 @@
+html, body, .view {
+    height: 100%;
+}
+
+header{
+    height: auto;
+        nav {
+        background-color: #fff;
+        background: linear-gradient(to top, #fff, #ccc);
+        .show {
+            max-height: 40vh;
+        }
+        .container {
+            a.navbar-brand {
+                padding: 1px;
+                font-size: 1.5em;
+                text-shadow: 1px 1px #000,
+                             2px 2px #777;
+                color: #fff;
+                transition: all 1s;
+                }
+                a.navbar-brand:hover {
+                  text-shadow: 1px 1px white,
+                               2px 2px #000;
+                  color: #4d4dff;
+                  }
+        }
+    }
+    ul.cart{
+        max-width: 75px;
+        i {
+            font-size: 1.2em;
+        }
+    }
+}
+
+main {
+    section.carousel-block{
+        height: 100vh;
+    }
+    .carousel-block {
+        height: 100%;
+        .carousel {
+            height: 100%;
+            .carousel-inner {
+                height: 100%;
+                .carousel-item {
+                    height: 100%;
+                    .view {
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        max-height: 100%;
+                    }
+                    .view0 {
+                        background: url('../img/1.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .view1 {
+                        background: url('../img/2.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                    .view2 {
+                        background: url('../img/3.jpg');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                    }
+                }
+                .carousel-active {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+#formCategoriesTablet {
+    display: none;
+}
+       
+
+@media (max-width: 990px) {
+    #formCategoriesTablet {
+        display: flex;
+    }
+    #formCategoriesDesktop {
+        display: none;
+    }
+} 
+@media (max-width: 768px) {
+    .carousel{
+        height: 100%;
+    }
+    .cart {
+        position: absolute;
+        top: 5%;
+        right: 25%;
+    }
+}
+@media (max-width: 600px) {
+    #formCategoriesTablet.formCategories {
+        position: relative;
+        right: 10%;
+        max-width: 20%;
+    input {
+        max-width: 40%;
+    }
+}
+}
+.page-footer {
+    background: #929FBA;
+}

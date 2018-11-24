@@ -1,0 +1,106 @@
+html,
+body,
+.view {
+  height: 100%;
+}
+header {
+  height: auto;
+}
+header nav {
+  background-color: #fff;
+  background: linear-gradient(to top, #fff, #ccc);
+}
+header nav .show {
+  max-height: 40vh;
+}
+header nav .container a.navbar-brand {
+  padding: 1px;
+  font-size: 1.5em;
+  text-shadow: 1px 1px #000,
+                             2px 2px #777;
+  color: #fff;
+  transition: all 1s;
+}
+header nav .container a.navbar-brand:hover {
+  text-shadow: 1px 1px white,
+                               2px 2px #000;
+  color: #4d4dff;
+}
+header ul.cart {
+  max-width: 75px;
+}
+header ul.cart i {
+  font-size: 1.2em;
+}
+main section.carousel-block {
+  height: 100vh;
+}
+main .carousel-block {
+  height: 100%;
+}
+main .carousel-block .carousel {
+  height: 100%;
+}
+main .carousel-block .carousel .carousel-inner {
+  height: 100%;
+}
+main .carousel-block .carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+main .carousel-block .carousel .carousel-inner .carousel-item .view {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 100%;
+}
+main .carousel-block .carousel .carousel-inner .carousel-item .view0 {
+  background: url('../img/1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .carousel-block .carousel .carousel-inner .carousel-item .view1 {
+  background: url('../img/2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .carousel-block .carousel .carousel-inner .carousel-item .view2 {
+  background: url('../img/3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main .carousel-block .carousel .carousel-inner .carousel-active {
+  height: 100%;
+}
+#formCategoriesTablet {
+  display: none;
+}
+@media (max-width: 990px) {
+  #formCategoriesTablet {
+    display: flex;
+  }
+  #formCategoriesDesktop {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .carousel {
+    height: 100%;
+  }
+  .cart {
+    position: absolute;
+    top: 5%;
+    right: 25%;
+  }
+}
+@media (max-width: 600px) {
+  #formCategoriesTablet.formCategories {
+    position: relative;
+    right: 10%;
+    max-width: 20%;
+  }
+  #formCategoriesTablet.formCategories input {
+    max-width: 40%;
+  }
+}
+.page-footer {
+  background: #929FBA;
+}
