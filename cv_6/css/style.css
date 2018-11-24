@@ -10,9 +10,6 @@ header nav {
   background-color: #fff;
   background: linear-gradient(to top, #fff, #ccc);
 }
-header nav .show {
-  max-height: 50vh;
-}
 header nav .container a.navbar-brand {
   padding: 1px;
   font-size: 1.5em;
