@@ -1,7 +1,7 @@
 html,
 body,
 header,
-.view {
+#intro {
   height: 100%;
 }
 .navbar {
@@ -18,7 +18,7 @@ header,
 .navbar .container li.nav-item a:hover {
   color: #30f !important;
   font-weight: bold;
-  transition-color: .7s !important;
+  transition: .7s !important;
 }
 .top-nav-collapse {
   background-color: #1c2331;
@@ -31,7 +31,7 @@ header,
 .top-nav-collapse .container li.nav-item a:hover {
   color: #909 !important;
   font-weight: bold;
-  transition-color: .7s !important;
+  transition: .7s !important;
 }
 .team-section .avatar img {
   height: 50vh;
@@ -42,14 +42,6 @@ header,
   background-color: #1c2331;
 }
 @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  #intro {
-    height: 160vh;
-  }
-}
-@media (max-width: 350px) {
   html,
   body,
   header,

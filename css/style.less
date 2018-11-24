@@ -1,4 +1,4 @@
-html, body, header, .view{
+html, body, header, #intro{
 	height: 100%;
 }
 
@@ -20,7 +20,7 @@ html, body, header, .view{
 			a:hover {
 				color: #30f !important;
 				font-weight: bold;
-				transition-color: .7s !important;
+				transition: .7s !important;
 
 			}
 		}
@@ -44,7 +44,7 @@ html, body, header, .view{
 			a:hover {
 				color: #909 !important;
 				font-weight: bold;
-				transition-color: .7s !important;
+				transition: .7s !important;
 
 			}
 		}
@@ -66,17 +66,25 @@ html, body, header, .view{
 
 		@media (max-width: 740px) {
 			html, body, header, #intro{
-				height: 160vh;
-			}
-		}
-			
-		
-		@media (max-width: 350px) {
-				html, body, header, #intro{
 				height: 200vh;
 			}
 		}
+		// 	@media (max-width: 375px) {
+		// 		html, body, header, #intro{
+		// 		height: 160vh;
+		// 	}
+		// }
+		// @media (max-width: 350px) {
+		// 		html, body, header, #intro{
+		// 		height: 200vh;
+		// 	}
+		// }
 	
+	// .view {
+	// background: url(../img/intro.jpg) no-repeat center center fixed;
+	// -webkit-background-size: cover;
+	// background-size: cover;
+	// }
 	.view {
 		width: 100%;
 		height: 100%;
