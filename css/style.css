@@ -1,9 +1,3 @@
-html,
-body,
-header,
-#intro {
-  height: 100%;
-}
 .navbar {
   opacity: 0.98;
   background-color: #000;
@@ -33,11 +27,6 @@ header,
   font-weight: bold;
   transition: .7s !important;
 }
-.card {
-  margin: 2% 5% !important;
-  min-height: 100%;
-  max-width: 90vw;
-}
 .team-section .avatar img {
   height: 50vh;
   width: auto;
@@ -45,6 +34,9 @@ header,
 }
 .page-footer {
   background-color: #1c2331;
+}
+#intro {
+  height: 100vh;
 }
 .view {
   width: 100%;
@@ -58,4 +50,25 @@ header,
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -khtml-background-size: cover;
+}
+@media (max-width: 800px) {
+  html,
+  body,
+  #intro {
+    height: 150vh;
+  }
+}
+@media (max-width: 375px) {
+  html,
+  body,
+  #intro {
+    height: 200vh;
+  }
+}
+@media (max-width: 350px) {
+  html,
+  body,
+  #intro {
+    height: 250vh;
+  }
 }

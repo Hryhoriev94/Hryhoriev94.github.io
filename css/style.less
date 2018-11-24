@@ -1,6 +1,6 @@
-html, body, header, #intro{
-	height: 100%;
-}
+// html, body,  #intro{
+// 	height: 100%;
+// }
 
 
 .navbar{
@@ -52,12 +52,6 @@ html, body, header, #intro{
 
 		}
 
-		.card {
-			margin: 2% 5% !important;
-			min-height: 100%;
-			max-width: 90vw;
-		}
-
 .team-section {
 	.avatar {
 		img{
@@ -71,27 +65,15 @@ html, body, header, #intro{
 			background-color: #1c2331;
 		}
 
-		// @media (max-width: 740px) {
-		// 	html, body, header, #intro{
-		// 		height: 200vh;
-		// 	}
-		// }
-		// 	@media (max-width: 375px) {
-		// 		html, body, header, #intro{
-		// 		height: 160vh;
-		// 	}
-		// }
-		// @media (max-width: 350px) {
-		// 		html, body, header, #intro{
-		// 		height: 200vh;
-		// 	}
-		// }
-	
+
 	// .view {
 	// background: url(../img/intro.jpg) no-repeat center center fixed;
 	// -webkit-background-size: cover;
 	// background-size: cover;
 	// }
+	#intro {
+		height: 100vh;
+	}
 	.view {
 		width: 100%;
 		height: 100%;
@@ -104,4 +86,20 @@ html, body, header, #intro{
 		-webkit-background-size: cover; 
 		-moz-background-size: cover; 
 		-khtml-background-size: cover;
+	}
+
+	@media (max-width: 800px) {
+		html, body, #intro{
+			height: 150vh;
+		}
+	}
+		@media (max-width: 375px) {
+			html, body, #intro{
+			height: 200vh;
+		}
+	}
+	@media (max-width: 350px) {
+		html, body, #intro{
+			height: 250vh;
+		}
 	}
