@@ -1,0 +1,193 @@
+@color_1: #fff;
+@color_2: #fcac45;
+@color_3: #999;
+@color_4: #aeaeae;
+@color_5: #6c6c6c;
+@color_6: #e52325;
+@color_7: #000;
+@color_8: #8f8f8f;
+@font_family_1: 'Open Sans', sans-serif;
+@background_color_1: #222;
+
+
+
+@media screen and (max-width: 1024px)
+{
+    .topnav {
+        a {
+            display: none;
+        }
+        a.icon {
+            font-size: 25px;
+            display: block;
+            float: right;
+            margin-top: -17px;
+            color: @color_1;
+        }
+    }
+    nav {
+        width: 100%;
+    }
+    .topnav.responsive {
+        position: relative;
+        top: 50px;
+        left: -200px;
+        height: 340px;
+        a.icon {
+            position: absolute;
+            top: -50px;
+            right: -200px;
+        }
+        a {
+            display: block;
+            float: none;
+            text-align: left;
+        }
+    }
+   main {
+    .main_welcome {
+        width: 100%;
+        justify-content: center;
+    }
+   } 
+}
+
+@media screen and (max-width: 800px) {
+    .main_team {
+        padding: 50px 0 80px 0;
+        .team_card {
+            align-content: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            .photo {
+            width: 100px;
+            height: 100px;
+            margin: 10% auto;
+        }
+        }
+        
+    }
+
+        .main_about {
+            overflow: hidden;
+        .about_right {
+            margin-left: 5%;
+            p{
+                width: 40vw;
+            }
+            ul{
+                margin-top: 10vh;
+                display: flex;
+                width: 60vw;
+                justify-content: space-between;
+                position: relative;
+                left: -35vw;
+                li {
+                    display: inline;
+                    width: 30%;
+                    font-size: .5em;
+                }
+            }
+        }
+    }
+    .contact_wrapper{
+        max-width: 80vw;
+        
+        .form_inputs {
+            display: flex;
+            flex-wrap: wrap;
+            input {
+                justify-content: flex-end;
+                width: 80vw;
+                &:first-of-type {
+                margin-right: 0px;
+            }
+        }
+    }
+}
+}
+@media screen and (max-width: 600px) {
+        .main_about{
+            flex-wrap: wrap;
+            margin-bottom: 5vh;
+            padding-bottom: 0;
+            .about_left, .about_right {
+                width: 100%;
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+            }
+            .about_right {
+                margin-top: 5vh;
+                h2{
+                    display: inline-flex;
+                    justify-content: space-around;
+                }
+                p {
+                    width: 100%;
+                    margin: 20px 0;
+                }
+                ul {
+                    position: relative;
+                    display: flex;
+                    justify-content: space-around;
+                    left: 0;
+                    width: 100%;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+@media screen and (max-width: 400px) {
+    header{
+        .header_logo {
+            font-size: 0.9em;
+            margin-left: 7vw; 
+        }
+.topnav {
+        a {
+            display: none;
+        }
+        a.icon {
+            float: none;
+            font-size: 0.9em;
+        }
+    }
+.topnav.responsive {
+    a.icon {
+            left: 75vw;
+        }
+}
+    }
+main {
+    .main_welcome{
+     h1{
+        font-size: 1em;
+     }
+    p{
+        font-size: 0.95em;
+    }
+ 
+    }
+    }
+    .main_about{
+        .about_right {
+            ul{
+                flex-wrap: wrap;
+                li {
+                    font-size: 0.7em;
+                }
+            }
+        }  
+    }
+
+    .main_work{
+        .galery {
+            img {
+                max-width: 50vw;
+                height: auto;
+            }
+        }
+    }
+}

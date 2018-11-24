@@ -1,0 +1,159 @@
+@color_1: #fff;
+@color_2: #3b5998;
+@color_3: #f00;
+@color_4: #008000;
+@background_color_1: #3b5998;
+@background_color_2: #fff;
+
+html {
+	height: 100%;
+}
+body {
+	height: 100%;
+}
+header {
+	height: 100%;
+}
+#intro { 
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: url(../img/0.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -o-background-size: cover;  
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -khtml-background-size: cover; 
+}
+.navbar {
+	opacity: 0.75;
+	background-color: @background_color_1;
+	button {
+		color: @color_1 !important;
+		width: 100px;
+		float: right;
+	}
+	.container {
+		.navbar-brand {
+			color: @color_1;
+			font-size: 2em;
+			font-weight: 800;
+			span {
+				background-color: @background_color_2;
+				color: @color_2;
+				border-radius: 50%;
+				padding: 5px;
+			}
+		}
+		li.nav-item {
+			a {
+				color: @color_1 !important;
+				transition: .7s !important;
+				&:hover {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+.top-nav-collapse {
+	background-color: @background_color_1;
+	opacity: 1;
+	.container {
+		li.nav-item {
+			a {
+				color: @color_1 !important;
+				transition: .7s !important;
+				&:hover {
+					font-weight: bold;
+				}
+			}
+		}
+	}
+}
+.white-text {
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	transition: all 2s ease-in-out;
+}
+#KONTAKT {
+	padding-top: 10%;
+}
+#ONAS {
+	padding-top: 10%;
+}
+#Ubezpieczenia {
+	padding-top: 10%;
+}
+main {
+	.Witamy {
+		justify-content: stretch;
+	}
+	p {
+		font-size: 1.2em;
+	}
+}
+.witam {
+	span {
+		font-size: 2em;
+		font-weight: 600;
+	}
+	h2 {
+		font-size: 1.8em;
+		font-weight: 600;
+	}
+}
+.rek {
+	font-weight: 800;
+	font-size: 1.2em;
+	padding-bottom: 2%;
+}
+.ubezp_i {
+	button {
+		border: none;
+		background-color: @background_color_2;
+		outline: none;
+		cursor: pointer;
+	}
+}
+.ubezp {
+	i {
+		margin-top: 25px;
+		color: @color_3;
+		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
+		&:hover {
+			color: @color_4;
+			-webkit-transition: all 1s ease-in-out;
+			-moz-transition: all 1s ease-in-out;
+			-o-transition: all 1s ease-in-out;
+			transition: all 1s ease-in-out;
+		}
+	}
+	span {
+		font-size: 1.2em;
+	}
+}
+
+h3.adr {
+	font-size: 1em;
+}
+.dojazd {
+	font-size: 3em;
+	font-weight: 800;
+	color: @color_4;
+	padding: 2%;
+}
+footer {
+	background: #3b5998;
+	overflow-x: hidden;
+	p {
+		font-size: 1.5em;
+	}
+}
+

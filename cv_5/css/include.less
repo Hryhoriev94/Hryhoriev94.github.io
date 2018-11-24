@@ -1,0 +1,161 @@
+@color_1: #000;
+@color_2: green;
+@color_3: #fff;
+@color_4: #3b5998;
+@background_color_1: #ffbb00;
+@background_color_2: #3b5998;
+@background_color_3: #fff;
+
+.ham {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: transform 400ms;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hamRotate.active {
+  transform: rotate(45deg);
+}
+.hamRotate180.active {
+  transform: rotate(180deg);
+}
+.line {
+  fill: none;
+  transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
+  stroke: #fff;
+  stroke-width: 5;
+  stroke-linecap: round;
+}
+.ham3 {
+  .top {
+    stroke-dasharray: 40 130;
+  }
+  .middle {
+    stroke-dasharray: 40 140;
+  }
+  .bottom {
+    stroke-dasharray: 40 205;
+  }
+}
+.ham3.active {
+  .top {
+    stroke-dasharray: 75 130;
+    stroke-dashoffset: -63px;
+  }
+  .middle {
+    stroke-dashoffset: -102px;
+  }
+  .bottom {
+    stroke-dasharray: 110 205;
+    stroke-dashoffset: -86px;
+  }
+}
+.element1 {
+  background: url(../img/businessmen.jpg) no-repeat center center fixed;
+  transition: all 1s ease-in-out;
+}
+.element2 {
+  background: url(../img/car.png) no-repeat center center fixed;
+  background-color: @background_color_1;
+  transition: all 1s ease-in-out;
+}
+.element3 {
+  background: url(../img/family1.png) no-repeat center center fixed;
+  transition: all 1s ease-in-out;
+}
+.modal {
+  z-index: 9999;
+  .modal-header {
+    background-color: @background_color_2;
+    p.heading {
+      font-size: 2em !important;
+    }
+  }
+  li {
+    margin-top: 10px;
+    color: @color_1;
+    font-size: 1.2em;
+  }
+  i {
+    color: @color_2;
+  }
+  span {
+    font-size: 2em;
+  }
+}
+#UP {
+  display: none;
+  border-radius: 50%;
+  background-color: @background_color_2;
+  border: 1px #fff solid;
+  padding: 15px;
+  position: fixed;
+  bottom: 5vh;
+  right: 2vw;
+  color: @color_3;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  &:hover {
+    cursor: pointer;
+    background-color: @background_color_3;
+    border: 1px #3b5998 solid;
+    color: @color_4;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
+}
+
+
+/* #simplecookienotification_v01 {
+    display: block;
+    z-index: 99999;
+    min-height: 5vh;
+    width: 100vw;
+    position: fixed;
+    background: rgb(43, 54, 67);
+    border-image: initial;
+    border-width: 5px 0px 0px;
+    border-top-style: solid;
+    border-color: rgb(160, 178, 192);
+    text-align: center;
+    right: 0px;
+    color: rgb(119, 119, 119);
+    bottom: 0px;
+    left: 0px;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-radius: 0px;
+    div {
+    font-size: 14px;
+    font-weight: normal;
+    a#simplecookienotification_v01_polityka{
+      color: rgb(160, 178, 192);
+    }
+    a#simplecookienotification_v01_info{
+      color: rgb(160, 178, 192);
+    }
+    a#okbutton{
+      position: relative;
+      background: rgb(160, 178, 192); 
+      color: rgb(255, 255, 255); 
+      padding: 5px 5px; 
+      text-decoration: none; 
+      font-size: 12px; 
+      font-weight: normal; 
+      border: 0px solid rgb(43, 54, 67); 
+      border-radius: 5px; 
+
+    }
+    div#jwc_hr2 {
+      height: 10px; 
+      display: block;
+    }
+  }
+} */

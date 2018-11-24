@@ -1,0 +1,151 @@
+@media screen and (max-width: 1024px) {
+  .topnav a {
+    display: none;
+  }
+  .topnav a.icon {
+    font-size: 25px;
+    display: block;
+    float: right;
+    margin-top: -17px;
+    color: #fff;
+  }
+  nav {
+    width: 100%;
+  }
+  .topnav.responsive {
+    position: relative;
+    top: 50px;
+    left: -200px;
+    height: 340px;
+  }
+  .topnav.responsive a.icon {
+    position: absolute;
+    top: -50px;
+    right: -200px;
+  }
+  .topnav.responsive a {
+    display: block;
+    float: none;
+    text-align: left;
+  }
+  main .main_welcome {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main_team {
+    padding: 50px 0 80px 0;
+  }
+  .main_team .team_card {
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .main_team .team_card .photo {
+    width: 100px;
+    height: 100px;
+    margin: 10% auto;
+  }
+  .main_about {
+    overflow: hidden;
+  }
+  .main_about .about_right {
+    margin-left: 5%;
+  }
+  .main_about .about_right p {
+    width: 40vw;
+  }
+  .main_about .about_right ul {
+    margin-top: 10vh;
+    display: flex;
+    width: 60vw;
+    justify-content: space-between;
+    position: relative;
+    left: -35vw;
+  }
+  .main_about .about_right ul li {
+    display: inline;
+    width: 30%;
+    font-size: .5em;
+  }
+  .contact_wrapper {
+    max-width: 80vw;
+  }
+  .contact_wrapper .form_inputs {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .contact_wrapper .form_inputs input {
+    justify-content: flex-end;
+    width: 80vw;
+  }
+  .contact_wrapper .form_inputs input:first-of-type {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main_about {
+    flex-wrap: wrap;
+    margin-bottom: 5vh;
+    padding-bottom: 0;
+  }
+  .main_about .about_left,
+  .main_about .about_right {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .main_about .about_right {
+    margin-top: 5vh;
+  }
+  .main_about .about_right h2 {
+    display: inline-flex;
+    justify-content: space-around;
+  }
+  .main_about .about_right p {
+    width: 100%;
+    margin: 20px 0;
+  }
+  .main_about .about_right ul {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  header .header_logo {
+    font-size: 0.9em;
+    margin-left: 7vw;
+  }
+  header .topnav a {
+    display: none;
+  }
+  header .topnav a.icon {
+    float: none;
+    font-size: 0.9em;
+  }
+  header .topnav.responsive a.icon {
+    left: 75vw;
+  }
+  main .main_welcome h1 {
+    font-size: 1em;
+  }
+  main .main_welcome p {
+    font-size: 0.95em;
+  }
+  .main_about .about_right ul {
+    flex-wrap: wrap;
+  }
+  .main_about .about_right ul li {
+    font-size: 0.7em;
+  }
+  .main_work .galery img {
+    max-width: 50vw;
+    height: auto;
+  }
+}
