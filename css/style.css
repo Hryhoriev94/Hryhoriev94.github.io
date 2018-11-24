@@ -46,14 +46,6 @@ header,
 .page-footer {
   background-color: #1c2331;
 }
-@media (max-width: 740px) {
-  html,
-  body,
-  header,
-  #intro {
-    height: 200vh;
-  }
-}
 .view {
   width: 100%;
   height: 100%;
