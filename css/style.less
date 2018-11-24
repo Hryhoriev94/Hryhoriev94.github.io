@@ -87,14 +87,24 @@
 		-moz-background-size: cover; 
 		-khtml-background-size: cover;
 	}
-
-	@media (max-width: 800px) {
+	.card-mobile {
+		display: none;
+	}
+	hr.mobile-hr {
+		display: none;
+	}
+	@media (max-width: 768px) {
 		html, body, #intro{
 			height: 150vh;
+			.card-desktop {
+				display: none;
+			}
+			.card-mobile {
+				display: block;
+			}
+			hr.mobile-hr {
+				display: inline;
+			}
 		}
 	}
-		@media (max-width: 550px) {
-			html, body, #intro{
-			height: 200vh;
-		}
-	}
+	
