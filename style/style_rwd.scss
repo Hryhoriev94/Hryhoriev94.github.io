@@ -1,0 +1,71 @@
+$bg_black: #161414;
+$white: #efefef;
+$bg_gray: #fcfcfc;
+$blue: #3b5998;
+$orange: #c9510c;
+$cyan: #0077b5;
+$border: #4f4f4f;
+@media screen and (max-width: 800px) {
+  header {
+    #myTopnav {
+      a {
+        font-size: 0.9em;
+      }
+    }
+    .second-line-menu {
+      .contact {
+        flex-direction: column;
+
+        span {
+          font-size: 1em !important;
+          margin: 10px 5px;
+        }
+      }
+    }
+  }
+  main {
+    section.about {
+      h1 {
+        font-size: 2em;
+      }
+    }
+    section.skills {
+      h2,
+      h3 {
+        font-size: 1.2em;
+      }
+      ul {
+        li {
+          font-size: 1em;
+          color: #000;
+          text-shadow: none;
+        }
+      }
+    }
+    section.portfolio {
+      #portfolio {
+        font-size: 2em;
+      }
+      justify-content: center;
+      div.portfolio {
+        width: 100%;
+        margin-top: 20px;
+        .portfolio_main {
+          img {
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    .contact {
+      flex-direction: column;
+
+      span {
+        font-size: 1em !important;
+        margin: 10px 5px;
+      }
+    }
+  }
+}

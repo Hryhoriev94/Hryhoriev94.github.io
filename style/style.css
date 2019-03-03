@@ -1,0 +1,451 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header .first-line-menu {
+  display: flex;
+  padding: 20px 15px;
+  background-color: #161414;
+  border-bottom: 3px #4f4f4f solid;
+}
+
+header .first-line-menu .logo {
+  color: #efefef;
+  font-weight: 400;
+  font-size: 28px;
+  display: flex;
+  margin-left: 10px;
+  justify-content: flex-start;
+  flex-direction: column;
+  cursor: default;
+}
+
+header .first-line-menu .logo .logoLetter {
+  color: #3b5998;
+}
+
+header .first-line-menu .logo:after {
+  display: block;
+  content: '';
+  height: 1px;
+  width: 0%;
+  background: #3b5998;
+  background-image: -webkit-linear-gradient(left, #3b5998, #efefef, #3b5998, #efefef, #3b5998);
+  background-image: -moz-linear-gradient(left, #3b5998, #efefef, #3b5998, #efefef, #3b5998);
+  background-image: -ms-linear-gradient(left, #3b5998, #efefef, #3b5998, #efefef, #3b5998);
+  background-image: -o-linear-gradient(left, #3b5998, #efefef, #3b5998, #efefef, #3b5998);
+  transition: width 0.5s ease-in-out;
+}
+
+header .first-line-menu .logo:hover:after,
+header .first-line-menu .logo:focus:after {
+  width: 100%;
+}
+
+header .first-line-menu nav {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+}
+
+header .first-line-menu nav .topnav {
+  margin-right: 50px;
+}
+
+header .first-line-menu nav .topnav a {
+  font-size: 21px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #efefef;
+  transition: 2s;
+  text-shadow: 1px -1px #3b5998;
+}
+
+header .first-line-menu nav .topnav a:hover {
+  color: #3b5998;
+  transition: 2s;
+  text-shadow: none;
+}
+
+header .second-line-menu {
+  background-color: #fcfcfc;
+  padding: 20px 15px;
+  display: flex;
+}
+
+header .second-line-menu .contact {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+header .second-line-menu .contact a {
+  color: #000;
+}
+
+header .second-line-menu .contact span {
+  font-size: 1.5em;
+  margin: 0 20px;
+}
+
+header .second-line-menu .contact span i {
+  color: #000;
+  transition: 1s ease-in-out;
+}
+
+header .second-line-menu .contact span:hover {
+  cursor: pointer;
+}
+
+header .second-line-menu .contact span:hover i {
+  color: green;
+  transition: 1s ease-in-out;
+}
+
+header .second-line-menu .social {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+  margin-right: 10%;
+}
+
+header .second-line-menu .social .fb {
+  color: #3b5998;
+}
+
+header .second-line-menu .social .git {
+  color: #c9510c;
+}
+
+header .second-line-menu .social .ld {
+  color: #0077b5;
+}
+
+header .second-line-menu .social .fb:hover {
+  color: #fff;
+  transition: 1.2s;
+  padding: 25%;
+  border: 2px #3b5998 solid;
+  background-color: #3b5998;
+  border-radius: 50%;
+}
+
+header .second-line-menu .social .git:hover {
+  color: #fff;
+  transition: 1.2s;
+  padding: 25%;
+  border: 2px #c9510c solid;
+  background-color: #c9510c;
+  border-radius: 50%;
+}
+
+header .second-line-menu .social .ld:hover {
+  color: #fff;
+  transition: 1.2s;
+  padding: 25%;
+  border: 2px #0077b5 solid;
+  background-color: #0077b5;
+  border-radius: 50%;
+}
+
+header .second-line-menu .social a {
+  margin-right: 10%;
+}
+
+header .second-line-menu .social span {
+  color: #000;
+  transition: 1s;
+}
+
+header .second-line-menu .social span i {
+  font-size: 1.5em;
+}
+
+main section.about {
+  border-top: 3px #4f4f4f solid;
+  background: #161414;
+  padding: 2%;
+}
+
+main section.about h1 {
+  text-align: center;
+  color: #efefef;
+  font-size: 4em;
+  font-family: 'Verdana' serif;
+  font-weight: 100;
+  font-style: italic;
+  text-shadow: 1px 3px 1px #3b5998;
+}
+
+main section.skills h2 {
+  text-align: center;
+  font-size: 4em;
+  margin: 10px 0;
+}
+
+main section.skills h3 {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+main section.skills ul {
+  list-style: none;
+  display: flex;
+  width: 80%;
+  margin: 10px 10%;
+  flex-wrap: wrap;
+}
+
+main section.skills ul li {
+  margin: 0 10px;
+  font-size: 1.8em;
+  font-family: 'Verdana' serif;
+  font-weight: bold;
+}
+
+main section.skills ul li:hover {
+  cursor: default;
+  -webkit-animation: color-change 4s infinite;
+  -moz-animation: color-change 4s infinite;
+  -o-animation: color-change 4s infinite;
+  -ms-animation: color-change 4s infinite;
+  animation: color-change 4s infinite;
+}
+
+main section.skills ul li:after {
+  content: ',';
+  color: #000;
+}
+
+main section.skills ul li:last-child:after {
+  content: '.';
+}
+
+main section.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  margin: 0 2vw;
+}
+
+main section.portfolio #portfolio {
+  width: 100%;
+  font-size: 4em;
+  text-align: center;
+}
+
+main section.portfolio div.portfolio {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 5px;
+  color: #efefef;
+  width: 30vw;
+}
+
+main section.portfolio div.portfolio .portfolio_main img {
+  width: 100%;
+  height: 30vh;
+}
+
+main section.portfolio div.portfolio .mask {
+  display: none;
+}
+
+main section.portfolio div.portfolio .mask p {
+  padding: 10px;
+}
+
+main section.portfolio div.portfolio:hover .mask {
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 30vh;
+  width: 30vw;
+}
+
+main section.portfolio div.portfolio:hover .mask a p {
+  font-size: 1.1em;
+  padding-top: 20%;
+  text-align: center;
+  color: #efefef;
+  font-family: 'Verdana' serif;
+  font-weight: 100;
+  font-style: italic;
+  text-shadow: 1px 3px 1px #3b5998;
+}
+
+footer {
+  background-color: #161414;
+  padding: 20px 10px;
+  display: flex;
+  margin-top: 20px;
+}
+
+footer .contact {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+}
+
+footer .contact a {
+  color: #fff;
+}
+
+footer .contact span {
+  font-size: 1.5em;
+  margin: 0 20px;
+  color: #efefef;
+}
+
+footer .contact span i {
+  color: #efefef;
+  transition: 1s ease-in-out;
+}
+
+footer .contact span:hover {
+  cursor: pointer;
+}
+
+footer .contact span:hover i {
+  color: green;
+  transition: 1s ease-in-out;
+}
+
+footer .social {
+  display: flex;
+  justify-content: flex-end;
+  width: 20%;
+  margin-right: 10%;
+}
+
+footer .social .fb {
+  color: #3b5998;
+}
+
+footer .social .git {
+  color: #c9510c;
+}
+
+footer .social .ld {
+  color: #0077b5;
+}
+
+footer .social .fb:hover {
+  color: #fff;
+  transition: 1.2s;
+  padding: 25%;
+  border: 2px #3b5998 solid;
+  background-color: #3b5998;
+  border-radius: 50%;
+}
+
+footer .social .git:hover {
+  color: #fff;
+  transition: 1.2s;
+  padding: 25%;
+  border: 2px #c9510c solid;
+  background-color: #c9510c;
+  border-radius: 50%;
+}
+
+footer .social .ld:hover {
+  color: #fff;
+  transition: 1.2s;
+  padding: 25%;
+  border: 2px #0077b5 solid;
+  background-color: #0077b5;
+  border-radius: 50%;
+}
+
+footer .social a {
+  margin-right: 10%;
+}
+
+footer .social span {
+  color: #efefef;
+  transition: 1s;
+}
+
+footer .social span i {
+  font-size: 1.5em;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    color: #0077b5;
+  }
+  50% {
+    color: #3b5998;
+  }
+  75% {
+    color: #c9510c;
+  }
+  100% {
+    color: #3b5998;
+  }
+}
+
+@-moz-keyframes color-change {
+  0% {
+    color: #0077b5;
+  }
+  50% {
+    color: #3b5998;
+  }
+  75% {
+    color: #c9510c;
+  }
+  100% {
+    color: #3b5998;
+  }
+}
+
+@-ms-keyframes color-change {
+  0% {
+    color: #0077b5;
+  }
+  50% {
+    color: #3b5998;
+  }
+  75% {
+    color: #c9510c;
+  }
+  100% {
+    color: #3b5998;
+  }
+}
+
+@-o-keyframes color-change {
+  0% {
+    color: #0077b5;
+  }
+  50% {
+    color: #3b5998;
+  }
+  75% {
+    color: #c9510c;
+  }
+  100% {
+    color: #3b5998;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    color: #0077b5;
+  }
+  50% {
+    color: #3b5998;
+  }
+  75% {
+    color: #c9510c;
+  }
+  100% {
+    color: #3b5998;
+  }
+}
