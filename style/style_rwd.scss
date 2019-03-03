@@ -62,6 +62,12 @@ $border: #4f4f4f;
         .mask {
           height: 20vh;
           width: 95vw;
+          a {
+            p {
+              font-size: 1em;
+              padding-top: 10%;
+            }
+          }
         }
       }
     }
