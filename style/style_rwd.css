@@ -37,7 +37,7 @@
   main section.portfolio div.portfolio:hover .mask {
     height: auto;
     width: auto;
-    max-width: 100%;
+    max-width: 95vw;
   }
   footer .contact {
     flex-direction: column;
