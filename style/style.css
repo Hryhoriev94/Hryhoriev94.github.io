@@ -254,6 +254,7 @@ main section.portfolio div.portfolio .portfolio_main img {
 
 main section.portfolio div.portfolio .mask {
   display: none;
+  width: 100%;
 }
 
 main section.portfolio div.portfolio .mask p {
