@@ -54,13 +54,13 @@
 }
 
 @media screen and (max-width: 600px) {
-  section.portfolio div.portfolio {
-    height: 40vh;
+  main section.portfolio div.portfolio {
+    height: 50vh;
   }
-  section.portfolio div.portfolio .portfolio_main img {
-    height: 40vh;
+  main section.portfolio div.portfolio .portfolio_main img {
+    height: 50vh;
   }
-  section.portfolio div.portfolio:hover .mask {
-    height: 40vh;
+  main section.portfolio div.portfolio:hover .mask {
+    height: 50vh;
   }
 }
