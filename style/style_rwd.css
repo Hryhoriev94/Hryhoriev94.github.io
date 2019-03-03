@@ -28,16 +28,17 @@
     font-size: 2em;
   }
   main section.portfolio div.portfolio {
-    width: 100%;
+    width: 95vw;
+    height: 20vh;
     margin-top: 20px;
   }
   main section.portfolio div.portfolio .portfolio_main img {
-    height: auto;
+    width: 95vw;
+    height: 20vh;
   }
   main section.portfolio div.portfolio:hover .mask {
-    height: auto;
-    width: auto;
-    max-width: 95vw;
+    height: 20vh;
+    width: 95vw;
   }
   footer .contact {
     flex-direction: column;
